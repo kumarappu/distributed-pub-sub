@@ -1,17 +1,14 @@
-package com.spgmi.rtservices.poc.kafka.consumer;
+package com.ak.pubsub.poc.kafka.consumer;
 
-import com.spgmi.rtservices.poc.App;
-import com.spgmi.rtservices.poc.constants.IKafkaConstants;
-import com.spgmi.rtservices.poc.pojo.Ticker;
+import com.ak.pubsub.poc.App;
+import com.ak.pubsub.poc.pojo.Ticker;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
-import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.errors.WakeupException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**

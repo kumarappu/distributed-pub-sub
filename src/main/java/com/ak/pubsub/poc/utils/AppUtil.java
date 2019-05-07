@@ -1,6 +1,6 @@
-package com.spgmi.rtservices.poc.utils;
+package com.ak.pubsub.poc.utils;
 
-import com.spcapitaliq.realtime.common.proto.domain.CommonProto;
+import com.ak.pubsub.poc.proto.domain.CommonProto;
 
 import java.math.BigDecimal;
 import java.util.Random;

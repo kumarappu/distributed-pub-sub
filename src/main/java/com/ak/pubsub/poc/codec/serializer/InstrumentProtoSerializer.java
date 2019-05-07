@@ -1,6 +1,6 @@
-package com.spgmi.rtservices.poc.codec.serializer;
+package com.ak.pubsub.poc.codec.serializer;
 
-import com.spcapitaliq.realtime.common.proto.domain.CommonProto;
+import com.ak.pubsub.poc.proto.domain.CommonProto;
 import org.apache.kafka.common.serialization.Serializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

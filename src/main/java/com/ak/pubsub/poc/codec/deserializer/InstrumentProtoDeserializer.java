@@ -1,8 +1,7 @@
-package com.spgmi.rtservices.poc.codec.deserializer;
+package com.ak.pubsub.poc.codec.deserializer;
 
 import com.google.protobuf.InvalidProtocolBufferException;
-import com.spcapitaliq.realtime.common.proto.domain.CommonProto;
-import com.spgmi.rtservices.poc.pojo.Ticker;
+import com.ak.pubsub.poc.proto.domain.CommonProto;
 import org.apache.kafka.common.serialization.Deserializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

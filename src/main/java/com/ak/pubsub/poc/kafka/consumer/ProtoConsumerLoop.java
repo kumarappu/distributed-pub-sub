@@ -1,8 +1,7 @@
-package com.spgmi.rtservices.poc.kafka.consumer;
+package com.ak.pubsub.poc.kafka.consumer;
 
-import com.spcapitaliq.realtime.common.proto.domain.CommonProto;
-import com.spgmi.rtservices.poc.App;
-import com.spgmi.rtservices.poc.pojo.Ticker;
+import com.ak.pubsub.poc.App;
+import com.ak.pubsub.poc.proto.domain.CommonProto;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.common.errors.WakeupException;

@@ -1,13 +1,10 @@
-package com.spgmi.rtservices.poc.scheduledActors;
+package com.ak.pubsub.poc.scheduledActors;
 
 import akka.actor.AbstractActor;
-import com.spcapitaliq.realtime.common.proto.domain.CommonProto;
-import com.spgmi.rtservices.poc.App;
-import com.spgmi.rtservices.poc.codec.serializer.InstrumentProtoSerializer;
-import com.spgmi.rtservices.poc.codec.serializer.TickerSerializer;
-import com.spgmi.rtservices.poc.kafka.producer.ProducerCreator;
-import com.spgmi.rtservices.poc.pojo.Ticker;
-import com.spgmi.rtservices.poc.utils.AppUtil;
+import com.ak.pubsub.poc.App;
+import com.ak.pubsub.poc.kafka.producer.ProducerCreator;
+import com.ak.pubsub.poc.utils.AppUtil;
+import com.ak.pubsub.poc.proto.domain.CommonProto;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.logging.log4j.LogManager;
